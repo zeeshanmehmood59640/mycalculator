@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  background: linear-gradient(to left, #42275a 0%, #734b6d 100%);
+  font-family: "Merriweather", serif;
+}
+table {
+  margin: 5% 15%;
+  width: 70%;
+}
+h3 {
+  padding-top: 4%;
+}
+/* classes */
+.main {
+  transform: translateX(-50%);
+  margin: 5% 50%;
+  width: 26rem;
+  height: 32rem;
+  background-color: rgba(230, 224, 224, 0.993);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+}
+.display {
+  background-color: rgb(29, 26, 26);
+  font-size: 3rem;
+  text-align: right;
+  color: aliceblue;
+  height: 20%;
+}
+.buttons {
+  text-align: center;
+  align-items: center;
+}
+.normal {
+  /* border-radius: 100%; */
+  font-size: 2rem;
+  border: 1px solid;
+  border-color: rgb(224, 46, 90);
+  width: 60px;
+  height: 60px;
+  margin: 10% auto;
+}
+
+.last {
+  width: -webkit-fill-available;
+  font-size: 2rem;
+  background-color: rgb(224, 46, 90);
+  border: none;
+}
+.blue {
+  background-color: aqua;
+}
+
+@media (max-width: 480px) {
+  table {
+    margin: 3% 5%;
+    width: 60%;
+  }
+  h3 {
+    padding-top: 2%;
+  }
+  .main {
+    margin: 15% 50%;
+    width: 16rem;
+    height: 26rem;
+  }
+  .display {
+    font-size: 2rem;
+    height: 10%;
+  }
+  .normal {
+    font-size: 1.4rem;
+    width: 55px;
+    height: 55;
+    margin: 8% auto;
+  }
+
+  .last {
+    font-size: 1.4rem;
+  }
+  .backspace {
+    width: 40px;
+    height: 40px;
+  }
+}
